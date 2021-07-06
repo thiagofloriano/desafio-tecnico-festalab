@@ -1,0 +1,45 @@
+:root {
+  --bg: #FFF;
+  --bg-warm: #FDF4EC;
+  --black: #000A29;
+  --primary: #30036B;
+  --secondary: #B97A6C;
+  --success: #58D592;
+  --gray: #EEF1F5;
+  --gray-2: #797E8E;
+  --xxs: .5rem;
+  --xs: .75rem;
+  --sm: .875rem;
+  --md: 1rem;
+  --lg: 1.25rem;
+  --xl: 1.5rem;
+  --xxl: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: var(--black);
+}
+
+.btn-primary {
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: var(--secondary);
+  color: #FFF;
+  padding: var(--md);
+  width: 100%;
+  border-radius: var(--md);
+  font-size: var(--md);
+  line-height: var(--xl);
+}
+
+section {
+  padding: var(--sm);
+  margin-bottom: 30px;
+}

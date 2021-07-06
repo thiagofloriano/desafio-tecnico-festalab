@@ -1,0 +1,49 @@
+@media (max-width: 425px) {
+  .products {
+    margin: var(--xl) var(--sm);
+    padding: var(--xl);
+    border-radius: var(--lg);
+    background-color: var(--bg-warm);
+  }
+
+  .products__item {
+    margin: var(--lg) 0 var(--xxl) 0;
+  }
+
+  .products__image {
+    background-image: url(../img/presentes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10rem;
+    width: 100%;
+    margin-bottom: var(--md);
+  }
+
+  .products__title,
+  .products__text {
+    font-size: var(--lg);
+    text-align: center;
+    margin: var(--md);
+  }
+
+  .products__title {
+    font-weight: bold;
+  }
+
+  .products__list {
+    list-style: none;
+  }
+
+  .products__list li {
+    font-size: var(--md);
+    margin: var(--sm);
+  }
+
+  .products__list li::before {
+    content: '•';
+    font-size: var(--xxl);
+    vertical-align: middle;
+    margin-right: var(--sm);
+  }
+}
