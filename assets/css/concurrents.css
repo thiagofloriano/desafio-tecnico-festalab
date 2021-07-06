@@ -1,0 +1,49 @@
+@media (max-width: 425px) {
+  .concurrents {
+    padding-top: 50px;
+  }
+
+  .concurrents__header,
+  .concurrents__brands,
+  .concurrents__item-prices {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .concurrents__header {
+    border-bottom: 2px solid var(--gray);
+    margin-bottom: var(--sm);
+  }
+
+  .concurrents__brands,
+  .concurrents__item-prices {
+    flex: 0 1 100%;
+    max-width: calc((100/3) - 3/100) margin-right: 1%;
+    padding: var(--sm);
+  }
+
+  .concurrents__brands img {
+    max-width: 100%;
+  }
+
+  .concurrents__item:nth-child(even) {
+    background-color: var(--bg-warm);
+  }
+
+  .concurrents__item {
+    margin: 0 -.875rem;
+    padding: var(--lg) var(--sm);
+    text-align: center;
+  }
+
+  .concurrents__item-title {
+    margin: var(--sm) auto;
+    font-weight: bold;
+  }
+
+  .concurrents__item-price {
+    max-width: 30%;
+    font-size: var(--xs);
+    font-weight: bold;
+  }
+}
